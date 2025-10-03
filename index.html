@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPSF Symposium: Autoimmunity and Autoimmune Diseases</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <style>
+        body {
+            font-family: 'Jost', sans-serif;
+        }
+        .bg-hero {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?q=80&w=2070&auto=format&fit=crop'); /* Placeholder image */
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <header id="header" class="bg-white/80 backdrop-blur-md shadow-md fixed w-full top-0 z-50">
+        <nav class="container mx-auto px-6 py-3 flex justify-between items-center">
+            <a href="#" class="text-xl font-bold text-gray-800">SPSF Symposium 2025</a>
+            <div class="hidden md:flex space-x-6 items-center">
+                <a href="#home" class="text-gray-600 hover:text-blue-600">Home</a>
+                <a href="#about" class="text-gray-600 hover:text-blue-600">About</a>
+                <a href="#schedule" class="text-gray-600 hover:text-blue-600">Schedule</a>
+                <a href="#speakers" class="text-gray-600 hover:text-blue-600">Speakers</a>
+                <a href="#contact" class="text-gray-600 hover:text-blue-600">Contact</a>
+                <a href="#registration" class="bg-blue-600 text-white py-2 px-4 rounded-full hover:bg-blue-700 transition duration-300">Register Now</a>
+            </div>
+            <div class="md:hidden">
+                <button id="menu-btn" class="text-gray-800 focus:outline-none">
+                    <i data-lucide="menu"></i>
+                </button>
+            </div>
+        </nav>
+        <div id="mobile-menu" class="hidden md:hidden">
+            <a href="#home" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-200">Home</a>
+            <a href="#about" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-200">About</a>
+            <a href="#schedule" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-200">Schedule</a>
+            <a href="#speakers" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-200">Speakers</a>
+            <a href="#contact" class="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-200">Contact</a>
+            <a href="#registration" class="block py-2 px-4 text-sm bg-blue-600 text-white text-center rounded-md m-2">Register Now</a>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="bg-hero text-white min-h-screen flex items-center">
+            <div class="container mx-auto px-6 text-center">
+                <h1 class="text-4xl md:text-6xl font-bold leading-tight mb-4">Autoimmunity and Autoimmune Diseases</h1>
+                <p class="text-lg md:text-xl mb-2 font-light flex items-center justify-center"><i data-lucide="calendar-days" class="w-5 h-5 mr-2"></i>15th November 2025</p>
+                <p class="text-lg md:text-xl mb-8 font-light flex items-center justify-center"><i data-lucide="map-pin" class="w-5 h-5 mr-2"></i>Auditorium, Campus 11, KIIT Deemed to be University, Bhubaneswar</p>
+                <a href="#registration" class="bg-orange-500 text-white py-3 px-8 rounded-full text-lg font-semibold hover:bg-orange-600 transition duration-300 transform hover:scale-105">Register Now</a>
+                <div class="mt-16 bg-black/50 p-6 rounded-lg max-w-4xl mx-auto backdrop-blur-sm">
+                    <h2 class="text-2xl font-semibold mb-3">About the Sun Pharma Science Foundation (SPSF)</h2>
+                    <p class="text-gray-200 text-justify">The Sun Pharma Science Foundation (SPSF) is dedicated to advancing science and healthcare in India by recognizing excellence in medical and pharmaceutical research, encouraging young scientists, and fostering scientific exchange. Through symposia, awards, and collaborative initiatives, SPSF has been at the forefront of promoting knowledge that drives innovation and improves patient care.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="py-20 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold">About The Symposium</h2>
+                    <p class="text-gray-600 mt-4 max-w-3xl mx-auto">Autoimmune diseases affect millions globally, leading to chronic health conditions with significant personal, social, and economic impacts. This symposium will highlight the latest advancements and foster collaboration.</p>
+                </div>
+                
+                <div class="grid md:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <h3 class="text-2xl font-semibold mb-4 text-blue-700">Significance & Focus Areas</h3>
+                        <ul class="space-y-3 text-gray-700">
+                            <li class="flex items-start"><i data-lucide="check-circle-2" class="w-5 h-5 mr-3 mt-1 text-green-500 flex-shrink-0"></i><span><b>Chronic Conditions:</b> Impact and potential for improved treatments.</span></li>
+                            <li class="flex items-start"><i data-lucide="check-circle-2" class="w-5 h-5 mr-3 mt-1 text-green-500 flex-shrink-0"></i><span><b>Immune System Insights:</b> Relevance to broader medical applications.</span></li>
+                            <li class="flex items-start"><i data-lucide="check-circle-2" class="w-5 h-5 mr-3 mt-1 text-green-500 flex-shrink-0"></i><span><b>Genetics & Environment:</b> Interplay in autoimmune diseases.</span></li>
+                            <li class="flex items-start"><i data-lucide="check-circle-2" class="w-5 h-5 mr-3 mt-1 text-green-500 flex-shrink-0"></i><span><b>Targeted Therapies:</b> Latest advancements.</span></li>
+                            <li class="flex items-start"><i data-lucide="check-circle-2" class="w-5 h-5 mr-3 mt-1 text-green-500 flex-shrink-0"></i><span><b>Public Health Impact:</b> Economic and societal implications.</span></li>
+                            <li class="flex items-start"><i data-lucide="check-circle-2" class="w-5 h-5 mr-3 mt-1 text-green-500 flex-shrink-0"></i><span><b>Scientific Breakthroughs:</b> Cross-disciplinary advancements.</span></li>
+                        </ul>
+                    </div>
+                    <div class="bg-gray-100 p-8 rounded-lg shadow-lg">
+                        <h3 class="text-2xl font-semibold mb-4 text-blue-700">Patron & Organizing Committee</h3>
+                        <p class="mb-2"><b>Patron:</b> Prof. (Dr.) Achyuta Samanta</p>
+                        <p class="mb-2"><b>Organizing Chairman:</b> Prof. G.C. Kundu & Prof. B. Ravindran</p>
+                        <p class="font-semibold mt-4">Advisory Committee:</p>
+                        <ul class="list-disc list-inside ml-4 mt-2">
+                            <li>Prof. Saranjit Singh</li>
+                            <li>Prof. V.S. Chauhan</li>
+                            <li>Dr. Satyananda Misra</li>
+                            <li>Prof. J.R. Mohanty</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="schedule" class="py-20 bg-gray-100">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold">Program Schedule</h2>
+                    <p class="text-gray-600 mt-4">Detailed agenda for 15th November 2025. The final schedule is coming soon.</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-xl p-8 max-w-4xl mx-auto">
+                    <div class="overflow-x-auto">
+                        <table class="w-full text-left">
+                            <thead>
+                                <tr class="border-b-2 border-gray-200">
+                                    <th class="py-3 px-4 font-semibold text-gray-700">Time</th>
+                                    <th class="py-3 px-4 font-semibold text-gray-700">Session</th>
+                                    <th class="py-3 px-4 font-semibold text-gray-700">Speaker</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="border-b border-gray-200">
+                                    <td class="py-3 px-4">09:00 - 09:30</td>
+                                    <td class="py-3 px-4">Registration & Welcome Coffee</td>
+                                    <td class="py-3 px-4 text-gray-500">N/A</td>
+                                </tr>
+                                <tr class="border-b border-gray-200 bg-blue-50">
+                                    <td class="py-3 px-4">09:30 - 10:30</td>
+                                    <td class="py-3 px-4">Inaugural Session & Keynote Address</td>
+                                    <td class="py-3 px-4 text-gray-500">To be updated</td>
+                                </tr>
+                                 <tr class="border-b border-gray-200">
+                                    <td class="py-3 px-4">10:30 - 12:00</td>
+                                    <td class="py-3 px-4">Session 1: Immune System Insights</td>
+                                    <td class="py-3 px-4 text-gray-500">To be updated</td>
+                                </tr>
+                                <tr class="border-b border-gray-200 bg-blue-50">
+                                    <td class="py-3 px-4">12:00 - 13:00</td>
+                                    <td class="py-3 px-4">Lunch Break</td>
+                                    <td class="py-3 px-4 text-gray-500">N/A</td>
+                                </tr>
+                                <tr class="border-b border-gray-200">
+                                    <td class="py-3 px-4">13:00 - 14:30</td>
+                                    <td class="py-3 px-4">Session 2: Targeted Therapies</td>
+                                    <td class="py-3 px-4 text-gray-500">To be updated</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                     <div class="text-center mt-8">
+                        <button disabled class="bg-gray-400 cursor-not-allowed text-white py-2 px-6 rounded-full inline-flex items-center">
+                            <i data-lucide="download" class="w-4 h-4 mr-2"></i>
+                            Download Schedule PDF (Link coming soon)
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="speakers" class="py-20 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold">Invited Speakers</h2>
+                    <p class="text-gray-600 mt-4">Meet our esteemed panel of experts and researchers.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <div class="bg-gray-50 rounded-lg shadow-lg p-6 text-center group">
+                        <img src="https://via.placeholder.com/150" alt="Speaker" class="w-32 h-32 rounded-full mx-auto mb-4 border-4 border-white group-hover:border-blue-300 transition-all duration-300">
+                        <h3 class="text-xl font-semibold">Dr. Soumen Basak</h3>
+                        <p class="text-gray-500 mb-3">NII, New Delhi</p>
+                        <p class="text-sm text-gray-600 text-justify">A leading immunologist investigating crosstalk between NF-κB signaling pathways in inflammation-related diseases. Recipient of the Shanti Swarup Bhatnagar Prize.</p>
+                    </div>
+                    <div class="bg-gray-50 rounded-lg shadow-lg p-6 text-center group">
+                        <img src="https://via.placeholder.com/150" alt="Speaker" class="w-32 h-32 rounded-full mx-auto mb-4 border-4 border-white group-hover:border-blue-300 transition-all duration-300">
+                        <h3 class="text-xl font-semibold">Prof. Dipyaman Ganguly</h3>
+                        <p class="text-gray-500 mb-3">Ashoka University</p>
+                        <p class="text-sm text-gray-600 text-justify">A physician-scientist specializing in human immunology, focusing on plasmacytoid dendritic cells and mechanical cues in immune functions. Also a Shanti Swarup Bhatnagar Prize awardee.</p>
+                    </div>
+                    <div class="bg-gray-50 rounded-lg shadow-lg p-6 text-center group">
+                        <img src="https://via.placeholder.com/150" alt="Speaker" class="w-32 h-32 rounded-full mx-auto mb-4 border-4 border-white group-hover:border-blue-300 transition-all duration-300">
+                        <h3 class="text-xl font-semibold">Dr. Amit Awasthi</h3>
+                        <p class="text-gray-500 mb-3">THSTI, Faridabad</p>
+                        <p class="text-sm text-gray-600 text-justify">Senior Professor with expertise in T cell differentiation in autoimmunity and inflammation. President of the Indian Immunology Society.</p>
+                    </div>
+                    <div class="bg-gray-50 rounded-lg shadow-lg p-6 text-center group">
+                        <img src="https://via.placeholder.com/150" alt="Speaker" class="w-32 h-32 rounded-full mx-auto mb-4 border-4 border-white group-hover:border-blue-300 transition-all duration-300">
+                        <h3 class="text-xl font-semibold">Prof. Ramnath Mishra</h3>
+                        <p class="text-gray-500 mb-3">KIMS, Bhubaneswar</p>
+                        <p class="text-sm text-gray-600 text-justify">Professor Emeritus renowned for his expertise in diagnosing and managing autoimmune and musculoskeletal disorders. Recipient of the American College of Rheumatology Masters Award.</p>
+                    </div>
+                    <div class="bg-gray-50 rounded-lg shadow-lg p-6 text-center group">
+                        <img src="https://via.placeholder.com/150" alt="Speaker" class="w-32 h-32 rounded-full mx-auto mb-4 border-4 border-white group-hover:border-blue-300 transition-all duration-300">
+                        <h3 class="text-xl font-semibold">Dr. Bidyut Das</h3>
+                        <p class="text-gray-500 mb-3">SCB Medical College, Cuttack</p>
+                        <p class="text-sm text-gray-600 text-justify">Professor and Head with 40+ years of experience. His research covers cytokine signatures in infectious diseases and SLE.</p>
+                    </div>
+                     <div class="bg-gray-50 rounded-lg shadow-lg p-6 text-center group">
+                        <img src="https://via.placeholder.com/150" alt="Speaker" class="w-32 h-32 rounded-full mx-auto mb-4 border-4 border-white group-hover:border-blue-300 transition-all duration-300">
+                        <h3 class="text-xl font-semibold">Dr. Amita Agarwal</h3>
+                        <p class="text-gray-500 mb-3">SGPGI, Lucknow</p>
+                        <p class="text-sm text-gray-600 text-justify">Professor and Head who established a multi-institutional lupus network in India, focusing on juvenile arthritis and SLE.</p>
+                    </div>
+                     <div class="bg-gray-50 rounded-lg shadow-lg p-6 text-center group">
+                        <img src="https://via.placeholder.com/150" alt="Speaker" class="w-32 h-32 rounded-full mx-auto mb-4 border-4 border-white group-hover:border-blue-300 transition-all duration-300">
+                        <h3 class="text-xl font-semibold">Dr. Vineeta Shoba</h3>
+                        <p class="text-gray-500 mb-3">St Johns Med College</p>
+                        <p class="text-sm text-gray-600 text-justify">Specializes in lupus, myositis, and psoriasis. President of the Karnataka Rheumatology Association.</p>
+                    </div>
+                     <div class="bg-gray-50 rounded-lg shadow-lg p-6 text-center group">
+                        <img src="https://via.placeholder.com/150" alt="Speaker" class="w-32 h-32 rounded-full mx-auto mb-4 border-4 border-white group-hover:border-blue-300 transition-all duration-300">
+                        <h3 class="text-xl font-semibold">Dr. Aman Sharma</h3>
+                        <p class="text-gray-500 mb-3">PGI, Chandigarh</p>
+                        <p class="text-sm text-gray-600 text-justify">Professor focusing on systemic vasculitis and founder of the Indian Vasculitis Registries. President Elect of the Indian Rheumatology Association.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="registration" class="py-20 bg-gray-100">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold">Register for the Event</h2>
+                    <p class="text-gray-600 mt-4">Registration will be opening soon. Fill out the form to get notified.</p>
+                </div>
+                <div class="max-w-2xl mx-auto bg-white p-8 rounded-lg shadow-xl">
+                    <form>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                             <div>
+                                <label for="name" class="block text-gray-700 font-medium mb-2">Full Name</label>
+                                <input type="text" id="name" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                            </div>
+                            <div>
+                                <label for="email" class="block text-gray-700 font-medium mb-2">Email Address</label>
+                                <input type="email" id="email" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                            </div>
+                        </div>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                             <div>
+                                <label for="affiliation" class="block text-gray-700 font-medium mb-2">Affiliation / Institution</label>
+                                <input type="text" id="affiliation" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                            </div>
+                            <div>
+                                <label for="contact" class="block text-gray-700 font-medium mb-2">Contact Number</label>
+                                <input type="tel" id="contact" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                            </div>
+                        </div>
+                         <div class="mb-6">
+                            <label for="category" class="block text-gray-700 font-medium mb-2">Category</label>
+                            <select id="category" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                                <option>Student</option>
+                                <option>Professional</option>
+                                <option>Researcher</option>
+                            </select>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="bg-blue-600 text-white py-3 px-8 rounded-full font-semibold hover:bg-blue-700 transition duration-300">Submit Registration</button>
+                        </div>
+                    </form>
+                     <p class="text-center text-sm text-gray-500 mt-4">You will receive a confirmation email with further details once your registration is processed.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="py-20 bg-white">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Contact Us</h2>
+                <p class="text-gray-600 mb-8 max-w-2xl mx-auto">For any queries regarding the symposium, please feel free to reach out to the organizing team.</p>
+                <div class="flex flex-col md:flex-row justify-center items-center gap-8">
+                    <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+                        <h3 class="text-xl font-semibold">Organizing Chairman</h3>
+                        <p class="mt-2">Prof. Gopal C. Kundu, Director R&D, KIIT DU</p>
+                        <a href="tel:8698578644" class="text-blue-600 hover:underline inline-flex items-center mt-2">
+                            <i data-lucide="phone" class="w-4 h-4 mr-2"></i> +91 8698578644
+                        </a>
+                    </div>
+                    <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+                        <h3 class="text-xl font-semibold">Venue Details</h3>
+                        <p class="mt-2">Auditorium, Campus 11, KIIT Deemed to be University</p>
+                        <p class="text-gray-600">Bhubaneswar, Odisha</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-800 text-white py-6">
+        <div class="container mx-auto px-6 text-center">
+            <p>&copy; 2025 Sun Pharma Science Foundation & KIIT University. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Initialize Lucide Icons
+        lucide.createIcons();
+
+        const menuBtn = document.getElementById('menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const navLinks = document.querySelectorAll('#mobile-menu a');
+
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+        
+        // Close menu when a link is clicked
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+    </script>
+
+</body>
+</html>
