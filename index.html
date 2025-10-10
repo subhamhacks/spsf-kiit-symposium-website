@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SPSF Symposium: Autoimmunity and Autoimmune Diseases</title>
 
+    <link rel="icon" href="sunpharmaLOGO.png" type="image/png">
+    <link rel="apple-touch-icon" href="sunpharmaLOGO.png">
+
     <script src="https://cdn.tailwindcss.com"></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,15 +23,20 @@
         /* Style for the active navigation link */
         #main-nav a.active {
             color: #2563EB; /* Equivalent to text-blue-600 */
-            font-weight: 700;  /* Equivalent to font-bold */
         }
     </style>
 </head>
 <body class="bg-gray-50 text-gray-800">
 
-    <header id="header" class="bg-white/80 backdrop-blur-md shadow-md fixed w-full top-0 z-50">
+    <header id="header" class="bg-white shadow-md fixed w-full top-0 z-50">
         <nav class="container mx-auto px-6 py-3 flex justify-between items-center">
-            <a href="#" class="text-xl font-bold text-gray-800">SPSF Symposium 2025</a>
+            
+            <div class="flex items-center space-x-3">
+                <a href="https://sunpharmasciencefoundation.net" target="_blank"><img src="unnamed.png" alt="Sun Pharma Logo" class="h-10"></a>
+                <a href="https://kiit.ac.in" target="_blank"><img src="kiitlogo.png" alt="KIIT Logo" class="h-8"></a>
+                <span class="text-xl font-bold text-gray-800 hidden sm:inline">SPSF Symposium 2025</span>
+            </div>
+
             <div id="main-nav" class="hidden md:flex space-x-6 items-center">
                 <a href="#home" class="text-gray-600 hover:text-blue-600 transition-colors duration-300 active">Home</a>
                 <a href="#about" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">About</a>
@@ -63,10 +71,11 @@
                 <h1 class="text-4xl md:text-6xl font-bold leading-tight mb-4">Autoimmunity and Autoimmune Diseases</h1>
                 <p class="text-lg md:text-xl mb-2 font-light flex items-center justify-center"><i data-lucide="calendar-days" class="w-5 h-5 mr-2"></i>15th November 2025</p>
                 <p class="text-lg md:text-xl mb-8 font-light flex items-center justify-center"><i data-lucide="map-pin" class="w-5 h-5 mr-2"></i>Auditorium, Campus 11, KIIT Deemed to be University, Bhubaneswar</p>
+                <a href="SUN PHARMA & KIIT Symposium Flyer .pdf" target="_blank" class="bg-orange-500 text-white py-3 px-8 rounded-full text-lg font-semibold hover:bg-orange-600 transition duration-300 transform hover:scale-105">Symposium Flyer</a><br><br><br>
                 <a href="#registration" class="bg-orange-500 text-white py-3 px-8 rounded-full text-lg font-semibold hover:bg-orange-600 transition duration-300 transform hover:scale-105">Register Now</a>
                 <div class="mt-16 bg-black/50 p-6 rounded-lg max-w-4xl mx-auto backdrop-blur-sm">
                     <h2 class="text-2xl font-semibold mb-3">About the Sun Pharma Science Foundation (SPSF)</h2>
-                    <p class="text-gray-200 text-justify">The Sun Pharma Science Foundation (SPSF) is dedicated to advancing science and healthcare in India...drives innovation and improves patient care.</p>
+                    <p class="text-gray-200 text-justify">The Sun Pharma Science Foundation (SPSF) is dedicated to advancing science and healthcare in India by recognizing excellence in medical and pharmaceutical research, encouraging young scientists, and fostering scientific exchange. Through symposia, awards, and collaborative initiatives, SPSF has been at the forefront of promoting knowledge that drives innovation and aimproves patient care.</p>
                 </div>
             </div>
         </section>
@@ -74,8 +83,9 @@
         <section id="about" class="py-20 bg-white">
             <div class="container mx-auto px-6">
                 <div class="text-center mb-12">
-                    <h2 class="text-3xl md:text-4xl font-bold">About The Symposium</h2>
-                    <p class="text-gray-600 mt-4 max-w-3xl mx-auto">Autoimmune diseases affect millions globally...This symposium will highlight the latest advancements and foster collaboration.</p>
+                    <h2 class="text-3xl md:text-4xl font-bold ">About The Symposium</h2><br>
+                    <p class="text-justify">Autoimmune diseases represent a significant global health challenge, affecting millions of people and leading to chronic conditions with profound personal, social, and economic consequences. This symposium will bring together leading researchers, clinicians, and young scientists to highlight the latest advancements in the field and foster collaborative innovation.
+                    This pivotal event is organized in proud collaboration with <strong>KIIT Deemed to be University</strong>. Under the esteemed patronage of <strong>Prof. (Dr.) Achyuta Samanta</strong>, Founder of KIIT, KISS & KIMS, the symposium is guided by the expertise of Organizing Chairmen <strong>Prof. G.C. Kundu</strong> (Director R&D, KIIT) and <strong>Prof. B. Ravindran</strong> (CEO, Imgenex).</p>
                 </div>
                 <div class="grid md:grid-cols-2 gap-12 items-start">
                     <div class="bg-gray-100 p-8 rounded-lg shadow-lg">
@@ -102,12 +112,8 @@
             </div>
         </section>
 
-        <section id="schedule" class="py-20 relative overflow-hidden">
-            <video autoplay loop muted playsinline class="absolute top-0 left-0 w-full h-full object-cover z-0">
-                <source src="5752563-uhd_3840_2160_30fps.mp4" type="video/mp4">
-            </video>
+        <section id="schedule" class="py-20 relative overflow-hidden" style="background-image: url('pexels-jmark-301987.jpg'); background-size: cover; background-position: center; background-attachment: fixed;">
             <div class="absolute top-0 left-0 w-full h-full bg-black/75 z-10"></div>
-            
             <div class="container mx-auto px-6 relative z-20">
                 <div class="text-center mb-12">
                     <h2 class="text-3xl md:text-4xl font-bold text-white">Program Schedule</h2>
@@ -140,43 +146,108 @@
                     <p class="text-gray-600 mt-4">Meet our esteemed panel of experts and researchers.</p>
                 </div>
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-                    <div class="bg-gray-50 rounded-lg shadow-lg p-6 text-center group"><img src="https://via.placeholder.com/150" alt="Speaker" class="w-32 h-32 rounded-full mx-auto mb-4 border-4 border-white group-hover:border-blue-300 transition-all duration-300"><h3 class="text-xl font-semibold">Dr. Soumen Basak</h3><p class="text-gray-500 mb-3">NII, New Delhi</p><p class="text-sm text-gray-600 text-justify">A leading immunologist...Recipient of the Shanti Swarup Bhatnagar Prize.</p></div>
-                    <div class="bg-gray-50 rounded-lg shadow-lg p-6 text-center group"><img src="https://via.placeholder.com/150" alt="Speaker" class="w-32 h-32 rounded-full mx-auto mb-4 border-4 border-white group-hover:border-blue-300 transition-all duration-300"><h3 class="text-xl font-semibold">Prof. Dipyaman Ganguly</h3><p class="text-gray-500 mb-3">Ashoka University</p><p class="text-sm text-gray-600 text-justify">A physician-scientist...Also a Shanti Swarup Bhatnagar Prize awardee.</p></div>
-                    <div class="bg-gray-50 rounded-lg shadow-lg p-6 text-center group"><img src="https://via.placeholder.com/150" alt="Speaker" class="w-32 h-32 rounded-full mx-auto mb-4 border-4 border-white group-hover:border-blue-300 transition-all duration-300"><h3 class="text-xl font-semibold">Dr. Amit Awasthi</h3><p class="text-gray-500 mb-3">THSTI, Faridabad</p><p class="text-sm text-gray-600 text-justify">Senior Professor...President of the Indian Immunology Society.</p></div>
-                    <div class="bg-gray-50 rounded-lg shadow-lg p-6 text-center group"><img src="https://via.placeholder.com/150" alt="Speaker" class="w-32 h-32 rounded-full mx-auto mb-4 border-4 border-white group-hover:border-blue-300 transition-all duration-300"><h3 class="text-xl font-semibold">Prof. Ramnath Mishra</h3><p class="text-gray-500 mb-3">KIMS, Bhubaneswar</p><p class="text-sm text-gray-600 text-justify">Professor Emeritus...Recipient of the American College of Rheumatology Masters Award.</p></div>
-                    <div class="bg-gray-50 rounded-lg shadow-lg p-6 text-center group"><img src="https://via.placeholder.com/150" alt="Speaker" class="w-32 h-32 rounded-full mx-auto mb-4 border-4 border-white group-hover:border-blue-300 transition-all duration-300"><h3 class="text-xl font-semibold">Dr. Bidyut Das</h3><p class="text-gray-500 mb-3">SCB Medical College, Cuttack</p><p class="text-sm text-gray-600 text-justify">Professor and Head...covers cytokine signatures in infectious diseases and SLE.</p></div>
-                    <div class="bg-gray-50 rounded-lg shadow-lg p-6 text-center group"><img src="https://via.placeholder.com/150" alt="Speaker" class="w-32 h-32 rounded-full mx-auto mb-4 border-4 border-white group-hover:border-blue-300 transition-all duration-300"><h3 class="text-xl font-semibold">Dr. Amita Agarwal</h3><p class="text-gray-500 mb-3">SGPGI, Lucknow</p><p class="text-sm text-gray-600 text-justify">Professor and Head...focusing on juvenile arthritis and SLE.</p></div>
-                    <div class="bg-gray-50 rounded-lg shadow-lg p-6 text-center group"><img src="https://via.placeholder.com/150" alt="Speaker" class="w-32 h-32 rounded-full mx-auto mb-4 border-4 border-white group-hover:border-blue-300 transition-all duration-300"><h3 class="text-xl font-semibold">Dr. Vineeta Shoba</h3><p class="text-gray-500 mb-3">St Johns Med College</p><p class="text-sm text-gray-600 text-justify">Specializes in lupus, myositis, and psoriasis. President of the Karnataka Rheumatology Association.</p></div>
-                    <div class="bg-gray-50 rounded-lg shadow-lg p-6 text-center group"><img src="https://via.placeholder.com/150" alt="Speaker" class="w-32 h-32 rounded-full mx-auto mb-4 border-4 border-white group-hover:border-blue-300 transition-all duration-300"><h3 class="text-xl font-semibold">Dr. Aman Sharma</h3><p class="text-gray-500 mb-3">PGI, Chandigarh</p><p class="text-sm text-gray-600 text-justify">Professor focusing on systemic vasculitis...President Elect of the Indian Rheumatology Association.</p></div>
+                    <div class="bg-gray-50 rounded-lg shadow-lg p-6 text-center group"><img src="https://via.placeholder.com/150" alt="Speaker" class="w-32 h-32 rounded-full mx-auto mb-4 border-4 border-white group-hover:border-blue-300 transition-all duration-300"><h3 class="text-xl font-semibold">Dr. Soumen Basak</h3><p class="text-gray-500 mb-3">NII, New Delhi</p><p class="text-sm text-gray-600 text-justify">Dr. Soumen Basak is a leading immunologist and head of the Systems Immunology Laboratory
+                    at the National Institute of Immunology (NII) in New Delhi, where he investigates the crosstalk
+                    between signal-activated intracellular pathways like canonical and non-canonical NF-κB
+                    signaling using biochemistry, genetics, and computational modeling. His work focuses on the
+                    role of these mechanisms in inflammation-related diseases such as cancer, inflammatory bowel
+                    diseases, and antiviral immunity against viruses like Chandipura and Chikungunya. A recipient
+                    of the prestigious Shanti Swarup Bhatnagar Prize in Biological Sciences (2019) and fellowships
+                    from the Indian National Science Academy (2022), Indian Academy of Sciences (2021), and
+                    National Academy of Sciences India (2021), he has significantly advanced therapeutic strategies
+                    for immune disorders.</p></div>
+                    <div class="bg-gray-50 rounded-lg shadow-lg p-6 text-center group"><img src="https://via.placeholder.com/150" alt="Speaker" class="w-32 h-32 rounded-full mx-auto mb-4 border-4 border-white group-hover:border-blue-300 transition-all duration-300"><h3 class="text-xl font-semibold">Prof. Dipyaman Ganguly</h3><p class="text-gray-500 mb-3">Ashoka University</p><p class="text-sm text-gray-600 text-justify">Prof. Dipyaman Ganguly is a physician-scientist and Head of the Department of Biology at
+                    Ashoka University&#39;s Trivedi School of Biosciences, specializing in human immunology with a
+                    focus on plasmacytoid dendritic cells in autoreactive inflammation and mechanical cues in
+                    immune functions. Holding MBBS from Medical College Kolkata, PhDs in Biotechnology from
+                    Indian Institute of Chemical Biology and Immunology from UT MD Anderson Cancer Center,
+                    and postdoctoral experience at Columbia University, he returned to India in 2013 to lead
+                    research at CSIR-Indian Institute of Chemical Biology before joining Ashoka in 2024. His
+                    contributions include multi-omics studies on COVID-19 immune responses and awards like the
+                    Shanti Swarup Bhatnagar Prize in Medical Sciences (2022), NASI-Scopus Young Scientist
+                    Award (2017), and fellowships from the Indian Academy of Sciences and Royal Society of
+                    Biology (2024).</p></div>
+                    <div class="bg-gray-50 rounded-lg shadow-lg p-6 text-center group"><img src="https://via.placeholder.com/150" alt="Speaker" class="w-32 h-32 rounded-full mx-auto mb-4 border-4 border-white group-hover:border-blue-300 transition-all duration-300"><h3 class="text-xl font-semibold">Dr. Amit Awasthi</h3><p class="text-gray-500 mb-3">THSTI, Faridabad</p><p class="text-sm text-gray-600 text-justify">Dr. Amit Awasthi is a Senior Professor at the Translational Health Science and Technology
+                    Institute (THSTI) in Faridabad, with expertise in T cell differentiation and cytokine signaling in
+                    autoimmunity, inflammation, and infections. Trained as an Instructor at Harvard Medical School
+                    and with postdoctoral work at Brigham and Women&#39;s Hospital, his research explores Th9, Th17,
+                    and regulatory T cells in diseases like multiple sclerosis, Crohn&#39;s disease, and COVID-19,
+                    alongside immunotherapy and vaccine development using nanoparticles. Notable achievements
+                    include the GN Ramachandran National Bioscience Award (2021), DBT-Wellcome India
+                    Alliance Intermediate Fellowship (2012), and an Indian patent for chitosan oligosaccharide
+                    nanoparticles (2020); he currently serves as President of the Indian Immunology Society.</p></div>
+                    <div class="bg-gray-50 rounded-lg shadow-lg p-6 text-center group"><img src="https://via.placeholder.com/150" alt="Speaker" class="w-32 h-32 rounded-full mx-auto mb-4 border-4 border-white group-hover:border-blue-300 transition-all duration-300"><h3 class="text-xl font-semibold">Prof. Ramnath Mishra</h3><p class="text-gray-500 mb-3">KIMS, Bhubaneswar</p><p class="text-sm text-gray-600 text-justify">Prof. Ramnath Misra is Professor Emeritus and former Head of the Department of Clinical
+                    Immunology and Rheumatology at Kalinga Institute of Medical Sciences (KIMS) in
+                    Bhubaneswar, renowned for his expertise in diagnosing and managing autoimmune and
+                    musculoskeletal disorders like systemic lupus erythematosus and rheumatic diseases. With an
+                    MBBS and MD from SCB Medical College, Cuttack, and FRCP from the UK, he has pioneered
+                    clinical immunology training and research in India, contributing to flow cytometry,
+                    autoantibodies, and inflammation studies. His accolades include the APLAR Masters Award
+
+                    (2021) and American College of Rheumatology Masters Award (2024), reflecting his vast
+                    impact on rheumatology education and patient care.</p></div>
+                    <div class="bg-gray-50 rounded-lg shadow-lg p-6 text-center group"><img src="https://via.placeholder.com/150" alt="Speaker" class="w-32 h-32 rounded-full mx-auto mb-4 border-4 border-white group-hover:border-blue-300 transition-all duration-300"><h3 class="text-xl font-semibold">Dr. Bidyut Das</h3><p class="text-gray-500 mb-3">SCB Medical College, Cuttack</p><p class="text-sm text-gray-600 text-justify">Dr. Bidyut Kumar Das is Professor and Head of the Department of Clinical Immunology and
+                    Rheumatology at SCB Medical College and Hospital in Cuttack, with over 40 years of
+                    experience in internal medicine, immunology, and rheumatology. An alumnus of SCB (MBBS
+                    1979, MD 1984) and PhD in Immunology from Utkal University (2004), his research covers
+                    cytokine signatures in infectious diseases like malaria and SLE, genetic polymorphisms, and
+                    vitamin D&#39;s immunomodulatory role. Honored with awards like the Samanta Chandrasekhar
+                    Award (2018), Odisha Citizen’s Award (2012), and Pfizer Gold Medal (1979), he has
+                    transformed tele-rheumatology services, treating over 40,000 patients annually at no cost to the
+                    underprivileged.</p></div>
+                    <div class="bg-gray-50 rounded-lg shadow-lg p-6 text-center group"><img src="https://via.placeholder.com/150" alt="Speaker" class="w-32 h-32 rounded-full mx-auto mb-4 border-4 border-white group-hover:border-blue-300 transition-all duration-300"><h3 class="text-xl font-semibold">Dr. Vineeta Shoba</h3><p class="text-gray-500 mb-3">St Johns Med College</p><p class="text-sm text-gray-600 text-justify">Dr. Vineeta Shobha is Professor and Head of the Department of Clinical Immunology and
+                    Rheumatology at St. John&#39;s Medical College Hospital in Bengaluru, specializing in lupus,
+                    myositis, psoriasis, and COVID-19 impacts on autoimmune diseases. Holding MD and DM in
+                    Clinical Immunology and Rheumatology, she contributes to pan-India registries for lupus,
+                    scleroderma, and myositis, and serves as President of the Karnataka Rheumatology Association
+                    and Core Committee member for IRA Myositis and Lupus SIGs. Her work emphasizes
+                    assessment trends in systemic sclerosis and prescription practices across Indian healthcare
+                    settings.</p></div>
+                    <div class="bg-gray-50 rounded-lg shadow-lg p-6 text-center group"><img src="https://via.placeholder.com/150" alt="Speaker" class="w-32 h-32 rounded-full mx-auto mb-4 border-4 border-white group-hover:border-blue-300 transition-all duration-300"><h3 class="text-xl font-semibold">Dr. Aman Sharma</h3><p class="text-gray-500 mb-3">PGI, Chandigarh</p><p class="text-sm text-gray-600 text-justify">Dr. Aman Sharma is Professor in the Department of Internal Medicine (Clinical Immunology
+                    and Rheumatology) at PGIMER in Chandigarh, focusing on systemic vasculitis (e.g., AAV,
+                    DADA2), relapsing polychondritis, psoriatic arthritis, and extrapulmonary tuberculosis including
+                    HIV-TB coinfection. With MBBS and MD from PGIMER, plus FAMS, FIACM, FICP, FACR,
+                    and FRCP (London), he founded the Indian Vasculitis and Relapsing Polychondritis Registries in
+                    2017 and leads international collaborations like GRAPPA. Awards include the Rabindranath
+
+                    Tagore Oration (2019), International ACR Fellowship (2015), and Zydus Oration (2011); he is
+                    President Elect of the Indian Rheumatology Association.</p></div>
+                </div>
                 </div>
             </div>
         </section>
 
-        <section id="registration" class="py-20 relative overflow-hidden">
-            <video autoplay loop muted playsinline class="absolute top-0 left-0 w-full h-full object-cover z-0">
-                <source src="5863352-hd_1080_1920_29fps.mp4" type="video/mp4">
-            </video>
+        <section id="registration" class="py-20 relative overflow-hidden" style="background-image: url('pexels-rdne-9064715.jpg'); background-size: cover; background-position: center; background-attachment: fixed;">
             <div class="absolute top-0 left-0 w-full h-full bg-black/75 z-10"></div>
             <div class="container mx-auto px-6 relative z-20">
                 <div class="text-center mb-12">
                     <h2 class="text-3xl md:text-4xl font-bold text-white">Register for the Event</h2>
-                    <p class="text-gray-200 mt-4">Registration will be opening soon. Fill out the form to get notified.</p>
+                    <p class="text-gray-200 mt-4">Fill out the form below to register for the symposium.</p>
                 </div>
                 <div class="max-w-2xl mx-auto bg-white/80 backdrop-blur-sm p-8 rounded-lg shadow-xl">
-                    <form>
+                    
+                    <form id="registration-form">
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
-                            <div><label for="name" class="block text-gray-700 font-medium mb-2">Full Name</label><input type="text" id="name" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"></div>
-                            <div><label for="email" class="block text-gray-700 font-medium mb-2">Email Address</label><input type="email" id="email" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"></div>
+                            <div><label for="name" class="block text-gray-700 font-medium mb-2">Full Name</label><input type="text" id="name" name="name" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" required></div>
+                            <div><label for="email" class="block text-gray-700 font-medium mb-2">Email Address</label><input type="email" id="email" name="email" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" required></div>
                         </div>
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
-                            <div><label for="affiliation" class="block text-gray-700 font-medium mb-2">Affiliation / Institution</label><input type="text" id="affiliation" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"></div>
-                            <div><label for="contact" class="block text-gray-700 font-medium mb-2">Contact Number</label><input type="tel" id="contact" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"></div>
+                            <div><label for="affiliation" class="block text-gray-700 font-medium mb-2">Affiliation / Institution</label><input type="text" id="affiliation" name="affiliation" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" required></div>
+                            <div><label for="contact_number" class="block text-gray-700 font-medium mb-2">Contact Number</label><input type="tel" id="contact_number" name="contact_number" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" required></div>
                         </div>
-                        <div class="mb-6"><label for="category" class="block text-gray-700 font-medium mb-2">Category</label><select id="category" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"><option>Student</option><option>Professional</option><option>Researcher</option></select></div>
-                        <div class="mb-6"><label for="requirements" class="block text-gray-700 font-medium mb-2">Special Requirements</label><textarea id="requirements" rows="3" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="e.g., wheelchair access, dietary restrictions"></textarea></div>
+                        <div class="mb-6"><label for="category" class="block text-gray-700 font-medium mb-2">Category</label><select id="category" name="category" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" required><option value="">-- Please Select --</option><option value="Student">Student</option><option value="Professional">Professional</option><option value="Researcher">Researcher</option></select></div>
+                        <div class="mb-6"><label for="requirements" class="block text-gray-700 font-medium mb-2">Special Requirements</label><textarea id="requirements" name="requirements" rows="3" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="e.g., wheelchair access, dietary restrictions"></textarea></div>
                         <div class="text-center"><button type="submit" class="bg-blue-600 text-white py-3 px-8 rounded-full font-semibold hover:bg-blue-700 transition duration-300">Submit Registration</button></div>
                     </form>
-                    <p class="text-center text-sm text-gray-500 mt-4">You will receive a confirmation email with further details once your registration is processed.</p>
+                    
+                    <div id="limit-reached-message" class="hidden text-center text-red-600 font-bold p-4 border-2 border-red-500 rounded-lg">
+                        MAXIMUM ONLINE REGISTRATION LIMIT REACHED!!
+                        <br>
+                        PLEASE CONTACT THE ORGANIZER FOR OFFLINE REGISTRATION QUERIES.
+                    </div>
+                    
+                    <div id="form-message" class="text-center text-sm mt-4"></div>
+
                 </div>
             </div>
         </section>
@@ -208,54 +279,111 @@
     </footer>
 
     <script>
-        // Initialize Lucide Icons
-        lucide.createIcons();
+    // Initialize Lucide Icons
+    lucide.createIcons();
 
-        // --- Mobile Menu Toggle ---
-        const menuBtn = document.getElementById('menu-btn');
-        const mobileMenu = document.getElementById('mobile-menu');
-        const mobileNavLinks = document.querySelectorAll('#mobile-menu a');
-        menuBtn.addEventListener('click', () => {
-            mobileMenu.classList.toggle('hidden');
+    // --- Mobile Menu Toggle ---
+    const menuBtn = document.getElementById('menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    const mobileNavLinks = document.querySelectorAll('#mobile-menu a');
+    menuBtn.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+    });
+    mobileNavLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            mobileMenu.classList.add('hidden');
         });
-        mobileNavLinks.forEach(link => {
-            link.addEventListener('click', () => {
-                mobileMenu.classList.add('hidden');
+    });
+
+    // --- Active Nav Link & Form Submission Logic ---
+    document.addEventListener('DOMContentLoaded', () => {
+        const form = document.getElementById('registration-form');
+        const formMessage = document.getElementById('form-message');
+        const limitMessageDiv = document.getElementById('limit-reached-message');
+
+        // --- NEW: Function to Check Registration Status ---
+        const checkRegistrationStatus = async () => {
+            try {
+                const response = await fetch('check_status.php');
+                const status = await response.json();
+
+                if (status.currentRegistrations >= status.limit) {
+                    // Limit reached: hide form, show message
+                    form.style.display = 'none';
+                    limitMessageDiv.classList.remove('hidden');
+                } else {
+                    // Limit not reached: show form, hide message
+                    form.style.display = 'block';
+                    limitMessageDiv.classList.add('hidden');
+                }
+            } catch (error) {
+                console.error("Could not check registration status:", error);
+            }
+        };
+
+        // --- Navbar Highlighting Logic ---
+        const sections = document.querySelectorAll('main section');
+        const navLinks = document.querySelectorAll('#main-nav a:not(.bg-blue-600)');
+        const observerOptions = { root: null, rootMargin: '0px', threshold: 0.5 };
+        const observer = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const currentId = entry.target.getAttribute('id');
+                    navLinks.forEach(link => {
+                        link.classList.remove('active');
+                        if (link.getAttribute('href') === `#${currentId}`) {
+                            link.classList.add('active');
+                        }
+                    });
+                }
             });
-        });
+        }, observerOptions);
+        sections.forEach(section => observer.observe(section));
 
-        // --- Active Nav Link Highlighting on Scroll ---
-        document.addEventListener('DOMContentLoaded', () => {
-            const sections = document.querySelectorAll('main section');
-            
-            // FINAL FIX: Selects only the text links, excluding the button
-            const navLinks = document.querySelectorAll('#main-nav a:not(.bg-blue-600)');
+        // --- Form Submission Logic for PHP ---
+        form.addEventListener('submit', async (event) => {
+            event.preventDefault();
 
-            const observerOptions = {
-                root: null, 
-                rootMargin: '0px',
-                threshold: 0.5 
+            const data = {
+                fullName: form.querySelector('[name="name"]').value,
+                email: form.querySelector('[name="email"]').value,
+                affiliation: form.querySelector('[name="affiliation"]').value,
+                contactNumber: form.querySelector('[name="contact_number"]').value,
+                category: form.querySelector('[name="category"]').value,
+                specialRequirements: form.querySelector('[name="requirements"]').value
             };
+            
+            formMessage.textContent = 'Submitting...';
+            formMessage.className = 'text-center text-sm mt-4 text-gray-600';
 
-            const observer = new IntersectionObserver((entries, observer) => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        const currentId = entry.target.getAttribute('id');
-                        navLinks.forEach(link => {
-                            link.classList.remove('active');
-                            if (link.getAttribute('href') === `#${currentId}`) {
-                                link.classList.add('active');
-                            }
-                        });
-                    }
+            try {
+                const response = await fetch('register.php', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(data),
                 });
-            }, observerOptions);
 
-            sections.forEach(section => {
-                observer.observe(section);
-            });
+                const result = await response.json();
+
+                if (!response.ok) {
+                    throw new Error(result.message || 'An error occurred.');
+                }
+
+                formMessage.textContent = result.message;
+                formMessage.className = 'text-center text-sm mt-4 text-green-600 font-bold';
+                form.reset();
+
+            } catch (error) {
+                formMessage.textContent = `Error: ${error.message}`;
+                formMessage.className = 'text-center text-sm mt-4 text-red-600 font-bold';
+            }
         });
-    </script>
-
-</body>
-</html>
+        
+        // --- Initial and Periodic Checks ---
+        // Check status when the page first loads
+        checkRegistrationStatus();
+        
+        // NEW: Check the status every 30 seconds to "live reopen" the form
+        setInterval(checkRegistrationStatus, 30000); 
+    });
+</script></body></html>
