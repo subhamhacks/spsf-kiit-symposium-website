@@ -5,7 +5,7 @@ This repository contains the full source code for the official website of the **
 ## Live Demo
 https://spsf-kiit-symposium-website.vercel.app/
 
-## Actual product(Please don't interact in it's form)
+## Actual product (Please don't interact in it's form)
 https://spsf-symposium2025.org/
 
 ## 🌟 Features
