@@ -4,7 +4,7 @@
 This repository contains the full source code for the official website of the **"Autoimmunity and Autoimmune Diseases"** symposium. This is a collaborative event by the Sun Pharma Science Foundation (SPSF) and KIIT Deemed to be University, scheduled for November 15th, 2025, in Bhubaneswar.
 
 ## Live Demo
-`https://spsf-symposium2025.org/` (Replace with your actual domain)
+https://spsf-symposium2025.org/
 
 ## 🌟 Features
 
